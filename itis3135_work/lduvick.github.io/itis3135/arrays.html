@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+	<title>Logan Duvick, ITIS3135, Arrays</title>
+    <script src="scripts/arrays.js"></script>
+</head>
+
+<body>
+	<header>
+			<h1>Logan Duvick >> ITIS3135</h1>
+            <h2>Array</h2>
+	</header>
+	<nav>
+		<a href="introduction.html">Introduction</a>      
+		<a href="tables.html">Tables</a>
+        <a href="form.html">Form</a>
+	</nav>
+    <label>Employee Names: </label>
+    <select name="employeeName" id="empName" required>
+        <option value="">Select an Employee</option>
+        <option value="Jim Neidhart">Jim Neidhart</option>
+        <option value="Paul Walker">Paul Walker</option>
+        <option value="Malsa Caldwell">Malsa Caldwell</option>
+        <option value="Trada Paasad">Trada Paasad</option>
+    </select><br>
+    <label>Please Input Salary: </label>
+    <input type="text" id="salText" name="salaryText" required placeholder="$200000"><br>
+    <button onclick = "addSalary()" value="Add Salary" id="addsalButton">Add Salary</button>
+    <button onclick = "displayResults()" value="Display Results" id="disResButton">Display Results</button>
+    <button onclick = "displaySalary()" value="Display Salary" id="disSalButton">Display Salary</button><br><br>
+    <div id="results"></div>
+    <table id="results_table"></table>
+<footer>
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Flduvick%2Fitis3135%2Farrays.html">HTML Validator</a>
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Flduvick%2Fitis3135%2Farrays.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">CSS Validator</a>
+</footer>
+</body>
+    

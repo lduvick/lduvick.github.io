@@ -1,0 +1,51 @@
+body{
+    background-color: #52C5F7;
+    font-family: sans-sarif;
+    font-size: 24px;
+    align-self: center;
+    }
+    input[type=submit]{
+        background-color: brown;
+        color: white;
+    }
+    input[type=text], input[type=email]{
+        background-color:khaki;
+        color:rgb(1, 53, 1);
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+    table{
+        border-collapse: collapse;margin: 20px;
+    }
+    th{
+        background-color: green;
+    }
+    th, td{
+        border: 1px solid black;
+        padding: .2em 1em .2em .5em;
+        text-align: left;vertical-align: middle;
+    }
+    .right{
+        text-align: right;
+    }
+    table tr:nth-child(odd) {
+        background-color: lightgreen;
+    }
+    table tr:nth-child(even){
+        background-color: greenyellow;
+    }
+    img{
+        max-width: 400px;
+        max-height: 400px;
+    }
+    img.wolfPic { 
+        position: absolute; 
+        display:none;
+    } 
+    footer{        
+        position: fixed;
+        left: 50%;
+        bottom: 20px;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;        
+    }

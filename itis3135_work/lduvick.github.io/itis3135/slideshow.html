@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+	<title>Logan Duvick, ITIS3135, Slideshow</title>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="scripts/slideshow.js"></script>
+    
+<body>
+	<header>
+			<h1>Logan Duvick >> ITIS3135</h1>
+	</header>
+	<nav>     
+		<a href="tables.html">Tables</a>
+        <a href="form.html">Form</a>
+        <a href="polygon-name.html">Polygon-Name</a>
+        <a href="button-greet.html">Buttons</a>
+        <a href="arrays.html">Arrays</a>
+	</nav>	
+    <main>
+		<h2>Slideshow</h2>
+        <div id="slideshow">
+            <img class="wolfPic" src="images/rainbowwolf.jpg" alt="rainbowwolf">            
+            <img class="wolfPic" src="images/doublewolves.jpg" alt="doublewolves">            
+            <img class="wolfPic" src="images/howlingwolf.jpg" alt="howlingwolf">            
+            <img class="wolfPic" src="images/purplewolf.jpg" alt="purplewolf">            
+            <img class="wolfPic" src="images/moonwolf.jpg" alt="moonwolf">            
+            <img class="wolfPic" src="images/redwolf.jpg" alt="redwolf">            
+        </div>
+        <script>
+        $(document).ready(function() {
+            $(".wolfPic:first").show();
+            setInterval(function(){
+                    slideNext($('.wolfPic:visible')
+            )}, 7500);    
+        });
+        </script>
+        
+
+        
+    </main>
+    <footer>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Flduvick%2Fitis3135%2Fslideshow.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">CSS Validator</a>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Flduvick%2Fitis3135%2Fslideshow.html">HTML Checker</a>
+    </footer>
+</body>
